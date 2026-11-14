@@ -1,5 +1,20 @@
+DAY1
 1. Steps That I Followed Were Same As Mentioned In The Task...Read All The Elements And Attributes That Are To Be Used And What We Have To Write...And Started To Write It Accordingly.
 2. I Learned All These Basics Already...So No New Command.
 3. Using The Link Url For Image From Web.
 4. I Used ChatGpt To Solve Basic cum hassle problems. 
 5. Using image from web(not directly by adding it to the folder after downloading it).
+
+DAY2
+1.) Radio Buttons -> Allows the user to select only one option from the group
+Checkboxes -> Allows multiple selection
+
+2.) the purpose of label tag is to link a label to the input...it improves the accessibility for a checkbox or radio options...we use id of input same as labels 'for'
+  i.e. label for="xyz" and input id = "xyz".
+
+3.) <th> is used to define the header cell (type of row) where as <td> is used to write a particular value associated with the row(data cell).
+
+4.) semantic elements are self defined elements...we use to make the system design easier to understand...clear to look and structure our page for the search engines.
+
+5.) the most challenging part today was not about the code but to answer these theory based questions.
+
