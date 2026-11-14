@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+</head>
+<body>
+  <header>
+    <h3>Student Registration Page</h3>
+    <!--Navigation Bar-->
+    <nav>
+      <a href="https://erp.psit.ac.in" target="_blank">About College</a>
+      <a href="https://google.com" target="_blank">Sign In</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <form>
+        <!--NAME-->
+        <div>
+          <label for="text">Name: </label>
+          <input id="text" type="text" placeholder="Enter Your Name">
+        </div>
+        <!--Email-->
+        <div>
+          <label for="email">Email: </label>
+          <input id="email" type="email" placeholder="Enter Your Email" required>
+        </div>
+        <!--Phone Number-->
+        <div>
+          <label for="num">Phone Number: </label>
+          <input id="num" type="tel" placeholder="Enter Your Phone Number">
+        </div>
+        <!--Password-->
+        <div>
+          <label for="pass">Password: </label>
+          <input id="pass" type="password" placeholder="Enter Your Password" required>
+        </div>
+        <!--Date Of Birth-->
+        <div>
+          <label for="dob">Date Of Birth: </label>
+          <input id="dob" type="date" placeholder="Enter Your Date Of Birth">
+        </div>
+        <!--Select Gender-->
+        <div>
+          <h4>Select Gender</h4>
+          <label for="male">Male</label>
+          <input id="male" type="radio" name="gndr">
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gndr">
+        </div>
+        <!--Select Course-->
+        <div>
+          <br>
+          <label for="course">Course </label>
+          <select name="course" id="course" required>
+            <option value="Course" disabled selected></option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="Pharmacy">Pharmacy</option>
+          </select>
+        </div>
+        <!--Select Hobbies-->
+        <div>
+          <h4>Hobbies</h4>
+          <label for="chs">Playing Chess</label>
+          <input id="chs" type="checkbox">
+          <label for="ftbl">Playing FootBall</label>
+          <input id="ftbl" type="checkbox">
+          <label for="bk">Reading Books</label>
+          <input id="bk" type="checkbox"> 
+          <label for="oth">Other</label>
+          <input id="oth" type="checkbox"> 
+        </div>
+        <!--NAME-->
+        <div>
+          <textarea name="address" id="adrs" rows="5" cols="30" placeholder="Type Your Address" maxlength="50"></textarea>
+        </div>
+        <!--Submit And Reset Buttons-->
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </section><hr>
+    <!--Student Academic Details Table-->
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="5">Student Academic Details Table</th>
+          </tr>
+          <tr>
+            <th>Student Name</th>
+            <th>Roll Number</th>
+            <th>Branch</th>
+            <th>Semester</th>
+            <th>College</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aarav</td>
+            <td>12345</td>
+            <td>cse</td>
+            <td>1st</td>
+            <td>PSIT</td>
+          </tr>
+          <tr>
+            <td>Aryan</td>
+            <td>45678</td>
+            <td>mba</td>
+            <td>2nd</td>
+            <td>DU</td>
+          </tr>
+          <tr>
+            <td>Anonymous</td>
+            <td>15346</td>
+            <td>mca</td>
+            <td>5th</td>
+            <td>PSIT</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+  <footer></footer>
+</body>
+</html>
