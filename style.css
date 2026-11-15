@@ -14,10 +14,12 @@
   color: white;
 }
 
-#google{
+#google:hover{
   color: saddlebrown;
   font-weight: 1300;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid;
+  border-radius: 20px;
 }
 
 .para{
