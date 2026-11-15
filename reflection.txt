@@ -18,3 +18,13 @@ Checkboxes -> Allows multiple selection
 
 5.) the most challenging part today was not about the code but to answer these theory based questions.
 
+DAY3
+1.) CSS is a stylesheet language that is used to style the html page.it controls the overall design of the webpage.
+2.) Inline css is directly written inside the html element using the style attribute,
+    Internal css is written inside the html file under the head tag using style tag,
+    external css is used to write the css code in a seperate file then link the html page with that css page using the link tag under head tag.
+3.) class selector is used to select multiple elements at once...i.e. same class can have more than one element
+    id selector is used to select a particular element.
+4.) css properties I learned today -> border-radius , background-image , background-colour , border-radius , etc.
+5.) I changed some challenges today in writing the css code as I have not been in an habit of writing it.
+  
